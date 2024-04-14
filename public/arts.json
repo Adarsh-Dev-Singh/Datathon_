@@ -1,0 +1,53 @@
+{
+  "status": "ok",
+  "Arts": [
+    {
+      "id": 1,
+      "title": "Police Superintendent - Bangalore",
+      "district": "Bangalore Urban",
+      "urlToImage": "https://th.bing.com/th?id=OIP.rq1KAn7t8Y6SL_LgTMRy-wHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "cases": "15",
+      "casesSolved": "12"
+    },
+    {
+      "id": 2,
+      "title": "Police Superintendent - Mysuru",
+      "district": "Mysuru",
+      "urlToImage": "https://th.bing.com/th?id=OIP.rq1KAn7t8Y6SL_LgTMRy-wHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "cases": "20",
+      "casesSolved": "10"
+    },
+    {
+      "id": 3,
+      "title": "Police Superintendent - Mangaluru",
+      "district": "Dakshina Kannada",
+      "urlToImage": "https://th.bing.com/th?id=OIP.rq1KAn7t8Y6SL_LgTMRy-wHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "cases": "10",
+      "casesSolved": "5"
+    },
+    {
+      "id": 4,
+      "title": "Police Superintendent - Hubballi-Dharwad",
+      "district": "Dharwad",
+      "urlToImage": "https://th.bing.com/th?id=OIP.rq1KAn7t8Y6SL_LgTMRy-wHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "cases": "12",
+      "casesSolved": "7"
+    },
+    {
+      "id": 5,
+      "title": "Police Superintendent - Belagavi",
+      "district": "Belagavi",
+      "urlToImage": "https://th.bing.com/th?id=OIP.rq1KAn7t8Y6SL_LgTMRy-wHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "cases": "18",
+      "casesSolved": "0"
+    },
+    {
+      "id": 6,
+      "title": "Police Superintendent - Kalaburagi",
+      "district": "Kalaburagi",
+      "urlToImage": "https://th.bing.com/th?id=OIP.rq1KAn7t8Y6SL_LgTMRy-wHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "cases": "25",
+      "casesSolved": "19"
+    }
+  ]
+}
