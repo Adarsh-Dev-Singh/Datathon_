@@ -31,18 +31,18 @@ const FormElements = () => {
             <div className="flex flex-col gap-5.5 p-6.5">
               <div>
                 <label className="mb-3 block text-black dark:text-white">
-                  Default Input
+                  Name
                 </label>
                 <input
                   type="text"
-                  placeholder="Default Input"
+                  placeholder="Full Name"
                   className="w-full rounded-lg border-[1.5px] border-stroke bg-transparent py-3 px-5 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
                 />
               </div>
 
               <div>
                 <label className="mb-3 block text-black dark:text-white">
-                  Active Input
+                  Category
                 </label>
                 <input
                   type="text"
@@ -57,7 +57,7 @@ const FormElements = () => {
                 </label>
                 <input
                   type="text"
-                  placeholder="Disabled label"
+                  placeholder="Crime"
                   disabled
                   className="w-full rounded-lg border-[1.5px] border-stroke bg-transparent py-3 px-5 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary dark:disabled:bg-black"
                 />
@@ -66,7 +66,7 @@ const FormElements = () => {
           </div>
 
           {/* <!-- Toggle switch input --> */}
-          <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+          {/* <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
                 Toggle switch input
@@ -78,7 +78,7 @@ const FormElements = () => {
               <SwitcherThree />
               <SwitcherFour />
             </div>
-          </div>
+          </div> */}
 
           {/* <!-- Time and date --> */}
           <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
@@ -135,11 +135,11 @@ const FormElements = () => {
             <div className="flex flex-col gap-5.5 p-6.5">
               <div>
                 <label className="mb-3 block text-black dark:text-white">
-                  Default textarea
+                  About 
                 </label>
                 <textarea
                   rows={6}
-                  placeholder="Default textarea"
+                  placeholder="Information"
                   className="w-full rounded-lg border-[1.5px] border-stroke bg-transparent py-3 px-5 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
                 ></textarea>
               </div>
@@ -155,7 +155,7 @@ const FormElements = () => {
                 ></textarea>
               </div>
 
-              <div>
+              {/* <div>
                 <label className="mb-3 block text-black dark:text-white">
                   Disabled textarea
                 </label>
@@ -165,12 +165,12 @@ const FormElements = () => {
                   placeholder="Disabled textarea"
                   className="w-full rounded-lg border-[1.5px] border-stroke bg-transparent py-3 px-5 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary dark:disabled:bg-black"
                 ></textarea>
-              </div>
+              </div> */}
             </div>
           </div>
 
           {/* <!-- Checkbox and radio --> */}
-          <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+          {/* <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
                 Checkbox and radio
@@ -183,13 +183,13 @@ const FormElements = () => {
               <CheckboxFour />
               <CheckboxFive />
             </div>
-          </div>
+          </div> */}
 
           {/* <!-- Select input --> */}
           <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
-                Select input
+                Place
               </h3>
             </div>
             <div className="flex flex-col gap-5.5 p-6.5">
