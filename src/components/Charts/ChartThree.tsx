@@ -12,7 +12,7 @@ const options: ApexOptions = {
     type: 'donut',
   },
   colors: ['#3C50E0', '#6577F3', '#8FD0EF', '#0FADCF'],
-  labels: ['Desktop', 'Tablet', 'Mobile', 'Unknown'],
+  labels: ['Robbery', 'Eve Teasing', 'Accident', 'Others'],
   legend: {
     show: false,
     position: 'bottom',
@@ -67,7 +67,7 @@ const ChartThree: React.FC = () => {
       <div className="mb-3 justify-between gap-4 sm:flex">
         <div>
           <h5 className="text-xl font-semibold text-black dark:text-white">
-            Visitors Analytics
+            Crime Analytics
           </h5>
         </div>
         <div>
