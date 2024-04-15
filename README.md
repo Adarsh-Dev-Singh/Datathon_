@@ -1,10 +1,10 @@
-# Next.js Web App
+# Typecript Web App
 
 ## Overview:
-This project is a Next.js web application featuring various pages and components for an interactive user experience. It includes functionalities such as authentication, data visualization, form handling, and more.
+This project is a Type Script.js web application featuring various pages and components for an interactive user experience. It includes functionalities such as authentication, data visualization, form handling, and more.
 
 ## Running the App:
-To run this Next.js web application, follow these steps:
+To run this TypeScript web application, follow these steps:
 
 ### Prerequisites:
 - Node.js (v14.0 or higher)
@@ -14,7 +14,7 @@ To run this Next.js web application, follow these steps:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-cd nextjs-web-app
+cd TypeScript-web-app
 npm install
 npm run dev
 Make sure to have Node.js and npm installed on your system.
