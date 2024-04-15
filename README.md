@@ -1,58 +1,25 @@
+# Next.js Web App
 
-This is a React Next.js application that provides various pages and functionalities. Below is a brief overview of the components and pages included in this application:
+## Overview:
+This project is a Next.js web application featuring various pages and components for an interactive user experience. It includes functionalities such as authentication, data visualization, form handling, and more.
 
-Components:
-Loader: Displays a loading spinner while fetching data.
-PageTitle: Component to display page titles.
-ArtCards: Displays cards containing information about different arts.
-ArtFullDetails: Displays detailed information about a specific art.
-SignIn: Page for user authentication and signing in.
-SignUp: Page for user authentication and signing up.
-Calendar: Calendar component to display events and schedules.
-Chart: Component to display basic charts and graphs.
-ECommerce: Dashboard for eCommerce functionality.
-FormElements: Form elements and inputs for user input.
-FormLayout: Different layouts for organizing form elements.
-Profile: User profile page to display user information.
-Settings: Page for user settings and preferences.
-Tables: Component to display tabular data.
-Alerts: Component to display alert messages.
-Buttons: Component to display different types of buttons.
-Pages:
-/profile: User profile page.
-/arts/:artId: Detailed page for a specific art.
-/eCommerce: eCommerce dashboard page.
-/calendar: Calendar page.
-/forms/form-elements: Form elements page.
-/forms/form-layout: Form layout page.
-/tables: Tables page.
-/settings: Settings page.
-/chart: Chart page.
-/ui/alerts: Alerts page.
-/ui/buttons: Buttons page.
-/auth/signin: Signin page.
-/auth/signup: Signup page.
-Functionality:
-Fetches arts data from a JSON file (/arts.json) and displays them on the appropriate pages.
-Provides various UI components and pages for user interaction and navigation.
-Installation and Usage:
-Clone the repository.
-Navigate to the project directory.
-Install dependencies using npm install.
-Run the application using npm start or npm run dev.
-Technologies Used:
-React.js
-Next.js
-React Router
-JavaScript
-CSS
-Contributors:
-Pratyush Pandey
-Adarsh Dev Singh
-Dhawan Solanki
-Aarushi Saluja
+## Running the App:
+To run this Next.js web application, follow these steps:
 
-License:
-This project is licensed under the MIT License.
+### Prerequisites:
+- Node.js (v14.0 or higher)
+- npm package manager
 
-Feel free to explore the code and contribute to this project!
+### Installation:
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+cd nextjs-web-app
+npm install
+npm run dev
+Make sure to have Node.js and npm installed on your system.
+
+The application runs on port 3000 by default. If port 3000 is already in use, you can specify a different port using the --port flag when starting the development server.
+
+
+Feel free to adjust any details or add additional information as needed!
